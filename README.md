@@ -3,4 +3,4 @@ DepremTek, çözülmesi gereken deprem sorunlarının paylaşıldığı websited
 
 Airtable ile işleyip PHP çıktısı veriyorum.
 
-Vercel için HTML/JS kodlarını kopyalayıp yapıştırıyorum. https://depremtek.vercel.app/
+Vercel için HTML/JS kodlarını yeni eklemelerle manuel olarak kopyalayıp yapıştırıyorum. https://depremtek.vercel.app/
