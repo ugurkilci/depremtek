@@ -10,12 +10,12 @@
         <title>DepremTek - Deprem Teknolojileri Geliştir</title>
         <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
         <meta name="description" content="DepremTek, çözülmesi gereken deprem sorunlarının paylaşıldığı websitedir."/>
-        <link rel="canonical" href="https://depremtek.com" />
+        <link rel="canonical" href="https://depremtek.vercel.app/" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="DepremTek - Deprem Teknolojileri Geliştir" />
         <meta property="og:description" content="DepremTek, çözülmesi gereken deprem sorunlarının paylaşıldığı websitedir." />
-        <meta property="og:url" content="https://depremtek.com" />
+        <meta property="og:url" content="https://depremtek.vercel.app/" />
         <meta property="og:site_name" content="DepremTek - Deprem Teknolojileri Geliştir" />
         <meta property="og:image" content="" />
         <meta property="og:image:secure_url" content="" />
