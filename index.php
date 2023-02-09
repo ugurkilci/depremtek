@@ -1,4 +1,8 @@
-<!-- 01001110 01100101 00100000 01101101 01110101 01110100 01101100 01110101 00100000 01010100 11000011 10111100 01110010 01101011 00100111 11000011 10111100 01101101 00100000 01100100 01101001 01111001 01100101 01101110 01100101 00100001 -->
+<!-- 
+	01001110 01100101 00100000 01101101 01110101 01110100 01101100 01110101 00100000 01010100 11000011 10111100 01110010 01101011 00100111 11000011 10111100 01101101 00100000 01100100 01101001 01111001 01100101 01101110 01100101 00100001 
+
+	https://github.com/ugurkilci/depremtek
+-->
 <!DOCTYPE html>
 <html>
     <head>
@@ -26,12 +30,7 @@
         <meta name="MobileOptimized" content="510">
         <meta name="HandheldFriendly" content="true"/> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
-        <link rel="preload" as="font">
         <link rel="shortcut icon" type="image/ico" href="https://depremtek.vercel.app/img/ico.ico"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css?cache=<?=time()?>">
     </head>
     <body>
@@ -132,8 +131,7 @@
 									<div class="modal-body">';
 
 										if(empty($post["aciklama"])){
-											echo '<a href="https://forms.gle/s1mVBy5Nk9Xo14uy6" target="_blank" rel="noopener noreferrer" class="menu w-100 d-block text-center" title="Sorun Var!">Sorunu Çözdük! (Yan sekmede aç)</a><br><br>';
-											echo '<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfDpD2qK__ud_1K0gK0YDrFB2bDqaOMxnKAnoGH7bq3do02MQ/viewform?embedded=true" width="100%" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>';
+											echo '<a href="https://forms.gle/s1mVBy5Nk9Xo14uy6" target="_blank" rel="noopener noreferrer" class="menu w-100 d-block text-center" title="Sorun Var!">Sorunu Çözdük! (Yan sekmede aç)</a>';
 										}else{
 											echo $post["aciklama"].'<br><br>';
 											echo '<a href="https://forms.gle/s1mVBy5Nk9Xo14uy6" target="_blank" rel="noopener noreferrer" class="menu w-100 d-block text-center" title="Sorun Var!">Sorunu Çözdük! (Yan sekmede aç)</a>';
